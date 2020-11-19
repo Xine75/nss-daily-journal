@@ -17,35 +17,86 @@
 
 
       
-
+<!-- container for currentEntry, pastEntries, edit and delete buttons -->
         <main id="container">
+            <h2>Daily Journal</h2>
 
-  <!-- container for date, concept covered, entry, mood, and record button -->
+  <!-- article for date, concept covered, entry, mood, and record button -->
             <article class= "currentEntry">
+
+                <!-- drop down journal date field -->
                 <form action="">
                     <fieldset>
                         <label for="journalDate">Date of Entry</label>
-
-
-
+                        <input type="date" name = "journalDate" id = "journalDate">
                     </fieldset>
 
+                    <!-- small text area for today's concept -->
+                    <fieldset>
+                        <label for="currentConcept">Today's Concept</label>
+                        <input type="text" name = "currentConcept" id = "currentConcept">
+                    </fieldset>
 
+                    <!-- large text area for today's journal entry -->
+                    <fieldset>
+                        <label for="journalEntry">Today's Journal Entry</label>
+                        <textarea name = "journalEntry" id = "journalEntry" rows = "20" cols = "75"></textarea>
+                    </fieldset>
 
+                    <!-- drop down options for today's mood -->
+                    <fieldset>
+                        <label for="mood">Today's Mood:</label>
 
+                        <select name="mood" class="mood">
+                        <option value="inspired">Inspired</option>
+                        <option value="satisfied">Satisfied</option>
+                        <option value="frustrated">Frustrated</option>
+                        <option value="ugh">Ugh!</option>
+                        </select>
+                    </fieldset>
+                    
+                    <!-- button to submit today's journal entry -->
+                    <fieldset>
+                        <button class="submit" type="button">Record Journal Entry</button>
+                    </fieldset>
                 </form>
-                
-
             </article>
 
+            <!-- container for past entries with edit and delete buttons -->
+            <article class = pastEntries>
+                <form action="">
+                    <!-- 3 past entries -->
+                    <fieldset>
+                        <label for="pastConcept">Past Journal Entry</label>
+                        <input type="text" name = "pastConcept" id = "pastConcept">
+                        <button type="button">Edit</button>
+                        <button type="button">Delete</button>
+                    </fieldset>
 
+                    <fieldset>
+                        <label for="pastConcept">Past Journal Entry</label>
+                        <input type="text" name = "pastConcept" id = "pastConcept">
+                        <button type="button">Edit</button>
+                        <button type="button">Delete</button>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="pastConcept">Past Journal Entry</label>
+                        <input type="text" name = "pastConcept" id = "pastConcept">
+                        <button type="button">Edit</button>
+                        <button type="button">Delete</button>
+                    </fieldset>
+
+                </form>
+
+            </article>
 
         </main>
 
 
 
         <!-- footer contains copyright, my name, link to github doc -->
-        <footer class="footer">&#169; 2020 Christine Doza</footer>
+        <footer class="footer">&#169; 2020 Christine Doza <a href = "https://github.com/Xine75/nss-daily-journal">Visit me at Github!</a></footer>
 
         <script type="module" src="./scripts/main.js"></script>
     </body>
