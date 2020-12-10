@@ -2,10 +2,24 @@
 
 /*Typography
 --------------------------------------------------------------*/
-body,
+
 button,
 input,
 select,
+
+
+
+header {
+	 display: flex;
+	 flex-wrap: wrap;
+	 align-items: center;
+
+}
+
+body {
+	background-color: rgb(189, 222, 243);
+
+}
 textarea {
 	color: #404040;
 	font-family: "Comfortaa", Arial, sans-serif;
