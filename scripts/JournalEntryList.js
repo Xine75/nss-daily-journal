@@ -4,7 +4,7 @@
  *    there are items in the collection exposed by the
  *    data provider component
  */
-import { useJournalEntries } from "./JournalDataProvider.js"
+import { useEntries } from "./JournalDataProvider.js"
 import { JournalEntryComponent } from "./JournalEntry.js"
 
 export const EntryListComponent = () => {
@@ -14,7 +14,7 @@ const entryLog = document.querySelector(".entryLog")
 
 
     // Use the journal entry data from the data provider component
-    let entries = useJournalEntries()
+    let entries = useEntries()
 
     for (const entry of entries) {
         /*

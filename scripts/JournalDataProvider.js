@@ -1,24 +1,18 @@
-/*
- *   Journal data provider for Daily Journal application
- *
- *      Holds the raw data about each entry and exports
- *      functions that other modules can use to filter
- *      the entries for different purposes.
- */
 
 
-let journalArray = []
+let entries = []
 
-export const useJournalEntries = () => journalArray.slice()
+export const useEntries = () => entries.slice()
 
 export const getEntries = () => {
+    
     return fetch("http://localhost:8088/entries") // Fetch from the API
         .then(response => response.json())  // Parse as JSON
-        .then(entries => {
-            console.table(entries)
-            journalArray = entries
-            
-        })
+        .then(parsedEntries => {
+                entries = parsedEntries
+
+            }
+        )
 }
 
 
@@ -28,8 +22,8 @@ export const getEntries = () => {
 /* (--This is what we did before we had an external API--)
     You export a function that provides a version of the raw data in the format that you want
 */
-// export const useJournalEntries = () => {
-//     const sortedByDate = journalArray.sort(
+// export const useEntries = () => {
+//     const sortedByDate = entries.sort(
 //         (currentEntry, nextEntry) =>
 //             Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
 //     )
