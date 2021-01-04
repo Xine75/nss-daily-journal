@@ -2,7 +2,13 @@
 
 let entries = []
 
-export const useEntries = () => entries.slice()
+export const useEntries = () => {
+    entries.sort(
+        (currentEntry, nextEntry) =>
+            Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
+    )
+    return entries.slice()
+}
 
 export const getEntries = () => {
     
@@ -15,6 +21,10 @@ export const getEntries = () => {
         )
 }
 
+const dispatchStateChangeEvent = () => {
+    eventHub.dispatchEvent(new CustomEvent("journalStateChanged"))
+}
+
 export const saveEntries = entry => {
     return fetch("http://localhost:8080/entries", {
         method: "POST",
@@ -25,6 +35,7 @@ export const saveEntries = entry => {
         body: JSON.stringify(entry)
     })
     .then(getEntries)
+    .then(dispatchStateChangeEvent)
 }
 
 
