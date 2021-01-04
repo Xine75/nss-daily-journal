@@ -1,7 +1,9 @@
-import { saveEntries } from "./JournalDataProvider.js"
+// import { saveEntries } from "./JournalDataProvider.js"
 
 const contentTarget = document.querySelector(".form")
 const eventHub = document.querySelector(".container")
+
+//set up event listener here
 
 const render = () => {
     contentTarget.innerHTML = `
