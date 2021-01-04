@@ -6,13 +6,25 @@ export const useEntries = () => entries.slice()
 
 export const getEntries = () => {
     
-    return fetch("http://localhost:8088/entries") // Fetch from the API
+    return fetch("http://localhost:8080/entries") // Fetch from the API
         .then(response => response.json())  // Parse as JSON
         .then(parsedEntries => {
                 entries = parsedEntries
 
             }
         )
+}
+
+export const saveEntries = entry => {
+    return fetch("http://localhost:8080/entries", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        //strigifies the note-object
+        body: JSON.stringify(entry)
+    })
+    .then(getEntries)
 }
 
 
