@@ -9,6 +9,7 @@ export const JournalEntryComponent = (entry) => {
          <div class="currentConcept">${entry.concept}</div>
          <div class="journalEntry">${entry.entry}</div>
          <div class="mood">${entry.mood}</div>
+         
         </section>
     `
 }

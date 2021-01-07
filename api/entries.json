@@ -1,28 +1,151 @@
 {
-"entries" : [
+  "entries": [
     {
-        "id": 1,
-        "date": "11/16/2020",
-        "concept": "HTML & CSS",
-        "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-        "mood": "Inspired"
+      "id": 1,
+      "date": "11/16/2020",
+      "concept": "HTML & CSS",
+      "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
+      "mood": "Inspired"
     },
-
     {
-        "id": 2,
-        "date": "11/17/2020",
-        "concept": "HTML & JavaScript",
-        "entry": "We talked about how to automate information on a page using JavaScript",
-        "mood": "Frustrated"
+      "id": 2,
+      "date": "11/17/2020",
+      "concept": "HTML & JavaScript",
+      "entry": "We talked about how to automate information on a page using JavaScript",
+      "mood": "Frustrated"
     },
-
     {
-        "id": 3,
-        "date": "11/18/2020",
-        "concept": "More JavaScript",
-        "entry": "We worked in labs to create a Daily Journal, applying what we have learned from Martin's Aquarium",
-        "mood": "Satisfied"
+      "id": 3,
+      "date": "11/18/2020",
+      "concept": "More JavaScript",
+      "entry": "We worked in labs to create a Daily Journal, applying what we have learned from Martin's Aquarium",
+      "mood": "Satisfied"
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "daily journal",
+      "mood": "0",
+      "id": 4
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 5
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 6
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 7
+    },
+    {
+      "date": "2021-01-06",
+      "concept": "daily",
+      "entry": "be a lot cooler if you worked",
+      "mood": "frustrated",
+      "id": 8
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 9
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 10
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 11
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 12
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 13
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 14
+    },
+    {
+      "date": "2021-01-06",
+      "concept": "event listeners",
+      "entry": "please work",
+      "mood": "frustrated",
+      "id": 15
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 16
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 17
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 18
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 19
+    },
+    {
+      "date": "2021-01-06",
+      "concept": "Crying",
+      "entry": "Kogi street art photo booth, PBR&B raclette gastropub mustache chia franzen.",
+      "mood": "ugh",
+      "id": 20
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 21
     }
-
-]
+  ]
 }
