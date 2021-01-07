@@ -1,6 +1,7 @@
 
 
 let entries = []
+const eventHub = document.querySelector(".container")
 
 export const useEntries = () => {
     entries.sort(
@@ -9,6 +10,8 @@ export const useEntries = () => {
     )
     return entries.slice()
 }
+
+
 
 export const getEntries = () => {
     
@@ -20,8 +23,10 @@ export const getEntries = () => {
             }
         )
 }
+//Broadcasts that something was changed in the note field
 
 const dispatchStateChangeEvent = () => {
+   
     eventHub.dispatchEvent(new CustomEvent("journalStateChanged"))
 }
 
@@ -37,18 +42,3 @@ export const saveEntries = entry => {
     .then(getEntries)
     .then(dispatchStateChangeEvent)
 }
-
-
-
-
-
-/* (--This is what we did before we had an external API--)
-    You export a function that provides a version of the raw data in the format that you want
-*/
-// export const useEntries = () => {
-//     const sortedByDate = entries.sort(
-//         (currentEntry, nextEntry) =>
-//             Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
-//     )
-//     return sortedByDate
-// }

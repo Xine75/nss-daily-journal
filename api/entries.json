@@ -1,28 +1,95 @@
 {
-"entries" : [
+  "entries": [
     {
-        "id": 1,
-        "date": "11/16/2020",
-        "concept": "HTML & CSS",
-        "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-        "mood": "Inspired"
+      "id": 1,
+      "date": "11/16/2020",
+      "concept": "HTML & CSS",
+      "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
+      "mood": "Inspired"
     },
-
     {
-        "id": 2,
-        "date": "11/17/2020",
-        "concept": "HTML & JavaScript",
-        "entry": "We talked about how to automate information on a page using JavaScript",
-        "mood": "Frustrated"
+      "id": 2,
+      "date": "11/17/2020",
+      "concept": "HTML & JavaScript",
+      "entry": "We talked about how to automate information on a page using JavaScript",
+      "mood": "Frustrated"
     },
-
     {
-        "id": 3,
-        "date": "11/18/2020",
-        "concept": "More JavaScript",
-        "entry": "We worked in labs to create a Daily Journal, applying what we have learned from Martin's Aquarium",
-        "mood": "Satisfied"
+      "id": 3,
+      "date": "11/18/2020",
+      "concept": "More JavaScript",
+      "entry": "We worked in labs to create a Daily Journal, applying what we have learned from Martin's Aquarium",
+      "mood": "Satisfied"
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "daily journal",
+      "mood": "0",
+      "id": 4
+    },
+    {
+      "date": "2021-01-06",
+      "concept": "daily",
+      "entry": "be a lot cooler if you worked",
+      "mood": "frustrated",
+      "id": 8
+    },
+    {
+      "date": "2021-01-06",
+      "concept": "event listeners",
+      "entry": "please work",
+      "mood": "frustrated",
+      "id": 15
+    },
+    {
+      "date": "2021-01-06",
+      "concept": "Crying",
+      "entry": "Kogi street art photo booth, PBR&B raclette gastropub mustache chia franzen.",
+      "mood": "ugh",
+      "id": 20
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "0",
+      "id": 21
+    },
+    {
+      "date": "2021-01-07",
+      "concept": "Daily Journal",
+      "entry": "Word to Flacko Jodye, he done seen us put it down.",
+      "mood": "0",
+      "id": 22
+    },
+    {
+      "date": "2021-01-07",
+      "concept": "hello",
+      "entry": "please work",
+      "mood": "inspired",
+      "id": 26
+    },
+    {
+      "date": "2021-01-07",
+      "concept": "hello",
+      "entry": "You was in the zone, yeah.",
+      "mood": "ugh",
+      "id": 33
+    },
+    {
+      "date": "2021-01-07",
+      "concept": "Many to Many",
+      "entry": "Finally got the journal to work!",
+      "mood": "satisfied",
+      "id": 34
+    },
+    {
+      "date": "2021-01-14",
+      "concept": "ERDs",
+      "entry": "Got some help from friends to figure out a weird issue",
+      "mood": "satisfied",
+      "id": 35
     }
-
-]
+  ]
 }
