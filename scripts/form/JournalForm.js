@@ -44,7 +44,9 @@ const render = () => {
 //Handle browser-generated click event in component
 eventHub.addEventListener("click", clickEvent => {
     console.log("I'm listening")
+    
     if(clickEvent.target.id === "saveJournalEntryButton") {
+        clickEvent.preventDefault()
         //gather data from the form
         const journalDate = document.querySelector("#journalDate").value 
         const conceptsCovered = document.querySelector("#currentConcept").value 

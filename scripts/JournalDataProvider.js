@@ -26,6 +26,7 @@ export const getEntries = () => {
 //Broadcasts that something was changed in the note field
 
 const dispatchStateChangeEvent = () => {
+   
     eventHub.dispatchEvent(new CustomEvent("journalStateChanged"))
 }
 

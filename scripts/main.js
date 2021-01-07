@@ -1,10 +1,10 @@
 
 
-import  "./JournalEntryList.js"
+import  { EntryListComponent } from "./JournalEntryList.js"
 import { JournalFormComponent } from "./form/JournalForm.js"
 
 
-// EntryListComponent()
+ EntryListComponent()
 JournalFormComponent()
 
 
